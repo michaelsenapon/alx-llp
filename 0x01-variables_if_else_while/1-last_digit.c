@@ -6,15 +6,15 @@
 /**
  * main- positive, negative or zero
  *
- * Return: Always 0 (success) 
- */
+ * Return: Always 0 (success)
+ **/
 int main(void)
 {
 	int n;
 	int last_dig;
 
 	srand(time(0));
-	n =rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	/* my code goes here*/
 	last_dig = n % 10;
 
