@@ -1,14 +1,13 @@
+/*These are my headers*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+
 /* This source code print numbers in random
  * Positive, negative or zero
  * Also specify according to the random number predicted
  */
-
 int main(void)
 {
 	int n;
