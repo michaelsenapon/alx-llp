@@ -10,7 +10,7 @@
  * Also specify according to the random number predicted
  */
 
-/*This is my main code*/ 
+/*This is my main code*/
 int main(void)
 {
 	int n;
