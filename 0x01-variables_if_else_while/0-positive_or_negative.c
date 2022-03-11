@@ -13,6 +13,7 @@
 int main(void)	/*This is main program*/
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n < 0)
