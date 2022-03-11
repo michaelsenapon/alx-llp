@@ -4,7 +4,8 @@
 #include <time.h>
 
 
-/* This source code print numbers in random
+/* 
+ * This source code print numbers in random
  * Positive, negative or zero
  * Also specify according to the random number predicted
  */
