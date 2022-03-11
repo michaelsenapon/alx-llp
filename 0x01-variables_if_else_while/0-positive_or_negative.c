@@ -11,7 +11,7 @@
  */
 
 /*This is my main code*/
-int main(void)
+int main(void)	/*This is main program*/
 {
 	int n;
 
@@ -25,5 +25,5 @@ int main(void)
 	else
 		printf("%d is positive\n", n);
 
-	return (0);
+	return (0);	/*Here is the end of program*/
 }
