@@ -1,21 +1,16 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+/* more headers goes there */
 
-/*more headers have been added */
-/**
- * This source code print numbers in random
- * Positive, negative or zero
- * Also specify according to the random number predicted
- */
-
-/*This is my main code*/
-int main(void)	/*This is main program*/
+/* betty style doc for function main goes there */
+int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
 	if (n < 0)
 		printf("%d is negative\n", n);
 	else if (n == 0)
@@ -23,5 +18,5 @@ int main(void)	/*This is main program*/
 	else
 		printf("%d is positive\n", n);
 
-	return (0);	/*Here is the end of program*/
+	return (0);
 }
