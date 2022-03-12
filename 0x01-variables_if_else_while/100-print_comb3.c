@@ -1,33 +1,33 @@
+ 
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main- Combination of Single-Digit numbers
- *
- * Return: Always 0 (success)
- */
+  * main - Print number combined
+  *
+  * Return: Always (Success)
+  */
 int main(void)
 {
-	int i;
-	int j;
+	int c, i;
 
-	for (i = '0'; i <= '9'; a++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (j = '0'; j <= '9'; j++)
+		for (i = '0'; i <= '9'; i++)
 		{
-			if (i < j)
+			if (c < i)
 			{
+				putchar(c);
 				putchar(i);
-				putchar(j);
 
-				if (i != '8' || (i == '8' && j != '9'))
+				if (c != '8' || (c == '8' && i != '9'))
 				{
 					putchar(',');
 					putchar(' ');
-				}	
+				}
 			}
 		}
 	}
+
 	putchar('\n');
 
 	return (0);
