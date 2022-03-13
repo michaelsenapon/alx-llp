@@ -1,12 +1,12 @@
 /*
  * File: 6-size.c
- * Auth: Michael Bojerenu 
+ * Auth: Michael Bojerenu
  */
 
 #include <stdio.h>
 
 /**
- * main - Prints the size of various types based on the computer it is 
+ * main - Prints the size of various types based on the computer it is
  * compiled and run on ...
  *
  * Return: Always 0.
