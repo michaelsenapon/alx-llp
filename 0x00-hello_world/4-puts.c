@@ -1,15 +1,14 @@
 /*
  * File: 4-puts.c
- * Auth: Brennan D Baraban <375@holbertonschool.com>
+ * Auth: MichaelSenapon
  */
 
 #include <stdio.h>
 
 /**
- * main - Prints "Programming is like building a multilingual
- *                puzzle, followed by a new line.
+ * main - Prints "Programming is like building a multilingual..."
  *
- * Return: Always 0.
+ * Return: Always (0).
  */
 int main(void)
 {
