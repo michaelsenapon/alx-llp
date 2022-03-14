@@ -1,4 +1,9 @@
-/*Here are my headers*/
+/*
+ * Task: Program assign random numbers to var n 
+ *	 with additional description
+ * Auth: Michael BOJERENU
+ */
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
