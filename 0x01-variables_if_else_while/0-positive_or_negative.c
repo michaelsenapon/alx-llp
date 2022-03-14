@@ -1,5 +1,5 @@
 /*
- * Task: Program assign random number to the variable n with 
+ * Task: Program assign random number to the variable n with
  * positive/negative/zero description
  *
  * Auth: Michael BOJERENU
