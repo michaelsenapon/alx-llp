@@ -1,5 +1,5 @@
 /*
- * Task: Program assign random numbers to var n 
+ * Task: Program assign random numbers to var n
  *	 with additional description
  * Auth: Michael BOJERENU
  */
