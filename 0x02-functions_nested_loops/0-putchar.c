@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * Task 0: Program that prints _putchar using 
+ * Task 0: Program that prints _putchar using
  * _putchar function created locally.
  */
 
