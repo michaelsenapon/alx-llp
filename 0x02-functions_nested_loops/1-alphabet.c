@@ -9,21 +9,17 @@
 
 
 /**
- * Main - Print alphabets in lowercase
+ * print_alphabet - Print alphabets in lower case 
  *
- * Return: Always 0.
+ * Return: void
  */
-int main(void)
-{
-	print_alphabet();
-	_putchar('\n');
-	return (0);
-}
-
 void print_alphabet(void)
 {
-char i;
-for (i = 'a'; i <= 'z'; i++)
-	_putchar('i');
+	char i;
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
 	return;
 }
