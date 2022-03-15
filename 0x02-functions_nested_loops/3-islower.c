@@ -5,7 +5,7 @@
  * 
  * Return 1 if success otherwise 0
  */
-int _islower(int c);
+int _islower(int c)
 {
 	char r;
 
