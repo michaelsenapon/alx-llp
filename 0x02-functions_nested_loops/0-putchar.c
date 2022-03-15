@@ -1,8 +1,14 @@
 #include <unistd.h>
 #include "main.h"
 
-/* This program prints putchar using a _putchar created*/
-
+/**
+ * int _putchar - Its a new function declared to print on stdout
+ * @char c: Parameter that holds the value of character
+ *
+ * Description: This declaration is to enable 
+ * printing of character without using printf
+ */
+int _putchar(char c);
 
 /**
  * Main: Prints _putchar, followed by new line
