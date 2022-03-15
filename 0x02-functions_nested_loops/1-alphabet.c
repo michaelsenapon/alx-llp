@@ -7,7 +7,6 @@
 /*Header files*/
 #include "main.h"
 
-
 /**
  * print_alphabet - Print alphabets in lower case
  *
