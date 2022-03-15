@@ -1,10 +1,5 @@
-/**
-  *Task 1: Print the Alphabet in lowercase followed
-  *by new line
-  *Auth: Michael BOJERENU
-  */
-
 /*Header files*/
+
 #include "main.h"
 
 /**
@@ -20,5 +15,5 @@ void print_alphabet(void)
 	{
 		_putchar(i);
 	}
-		_putchar('\n');
+	_putchar('\n');
 }
