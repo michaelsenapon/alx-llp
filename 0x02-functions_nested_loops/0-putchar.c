@@ -1,10 +1,9 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
- * Main: Prints _putchar, followed by new line
+ * main: Prints _putchar, followed by new line
  *
- * Return: On Success 0.
+ * Return: Always 0
  */
 int main(void)
 {
@@ -17,5 +16,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
