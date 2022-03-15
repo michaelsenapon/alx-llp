@@ -15,7 +15,7 @@ int _putchar(char c);
 /**
  * Main: Prints _putchar, followed by new line
  *
- * Return: On Success 1.
+ * Return: On Success 0.
  */
 int main(void)
 {
@@ -28,5 +28,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return (1);
+	return (0);
 }
