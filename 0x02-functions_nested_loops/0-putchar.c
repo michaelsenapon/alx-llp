@@ -2,13 +2,13 @@
 #include "main.h"
 
 /**
- * Description: This program prints _putchar using  
+ * Initial Description: This program prints _putchar using
  * _putchar function created locally.
  */
 
 /*
  * Function:  declaration
- * 
+ *
  * Parameter C - This parameter represent character
  *
  * Return: On Success 1
