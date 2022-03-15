@@ -1,6 +1,8 @@
 #include <unistd.h>
 #include "main.h"
 
+/* This program prints putchar using a _putchar created*/
+
 
 /**
  * Main: Prints _putchar, followed by new line
