@@ -2,15 +2,19 @@
 #include "main.h"
 
 /**
- * Task 0: Program that prints _putchar using
+ * Description: This program prints _putchar using  
  * _putchar function created locally.
  */
 
 /*
  * Function:  declaration
- * @c - represent character
+ * 
+ * Parameter C - This parameter represent character
+ *
+ * Return: On Success 1
  */
-int _putchar(char c);
+int _putchar(char c); /* This function output single character */
+
 
 /**
  * Main: Prints _putchar, followed by new line
