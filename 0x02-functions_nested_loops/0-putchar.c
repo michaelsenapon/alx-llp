@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main - This is the main file
- * Short description 
+ * main - This is the main file 
  *
  * Return: Always 0
  */
