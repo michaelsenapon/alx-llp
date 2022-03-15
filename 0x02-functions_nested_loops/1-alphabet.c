@@ -6,9 +6,7 @@
 
 /*Header files*/
 #include "main.h"
-#include "putchar.c"
 
-/*Prototype of functions declared*/
 void print_alphabet(void);
 
 /**
@@ -19,7 +17,14 @@ void print_alphabet(void);
 int main(void)
 {
 	print_alphabet();
+	_putchar('\n');
 	return (0);
 }
-print_alphabet(
+
+void print_alphabet(void);
+{
+	char i;
+	for (i = 'a'; i <= 'z'; i++)
+		_putchar('i');
+		return;
 
