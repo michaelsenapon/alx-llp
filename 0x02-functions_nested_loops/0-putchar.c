@@ -1,22 +1,21 @@
+#include <unistd.h>
+#include "main.h"
+
 /**
- * Task 0: Prints _putchar, followed by a new line.
- *
- * Author: Michael BOJERENU
+ * Task 0: Program that prints _putchar using 
+ * _putchar function created locally.
  */
 
-/* Header files declaired */
-
-#include "main.h"
-#include <unistd.h>
-
-/* Function declaration*/
-
+/*
+ * Function:  declaration
+ * @c - represent character
+ */
 int _putchar(char c);
 
 /**
  * Main: Prints _putchar, followed by new line
  *
- * Return: Always 0.
+ * Return: On Success 1.
  */
 int main(void)
 {
@@ -29,5 +28,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return (0);
+	return (1);
 }
