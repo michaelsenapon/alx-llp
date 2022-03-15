@@ -1,12 +1,7 @@
 #include "main.h"
 
 /**
- * Short Description - The function is created in order to print
- * characters _putchar
- *
- * main - Print characters
- *
- * Description - This function is created to print character
+ * main - This is the main file
  *
  * Return: Always 0
  */
