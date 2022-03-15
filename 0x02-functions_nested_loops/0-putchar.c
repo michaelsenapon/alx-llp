@@ -2,6 +2,7 @@
 
 /**
  * main: Prints _putchar, followed by new line
+ * Description - This function is created to print character
  *
  * Return: Always 0
  */
