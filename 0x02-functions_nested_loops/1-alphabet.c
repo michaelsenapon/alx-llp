@@ -7,7 +7,6 @@
 /*Header files*/
 #include "main.h"
 
-void print_alphabet(void);
 
 /**
  * Main - Print alphabets in lowercase
@@ -21,7 +20,7 @@ int main(void)
 	return (0);
 }
 
-void print_alphabet(void)
+void print_alphabet(void);
 {
 char i;
 for (i = 'a'; i <= 'z'; i++);
