@@ -4,7 +4,6 @@
  * main - This is the main file
  *
  * Return: Always 0
- * Short Description
  */
 int main(void)
 {
