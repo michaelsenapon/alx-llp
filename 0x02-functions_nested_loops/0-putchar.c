@@ -6,8 +6,8 @@
 
 /* Header files declaired */
 
+#include "main.h"
 #include <unistd.h>
-#include <main.h>
 
 /* Function declaration*/
 
