@@ -20,6 +20,5 @@ int print_last_digit(int c)
 		return (last_digit);
 	}
 	_putchar('0' + last_digit);
-	-putchar('\n);
-	return (0);
+	return (last_digit);
 }
