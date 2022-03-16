@@ -14,7 +14,8 @@ int print_last_digit(int c)
 	{
 		return (last_digit);
 	}
-	else if (last_digit < 0)
+	else
+	{
 		last_digit = (last_digit * (-1));
-
+	}
 }
