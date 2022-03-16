@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * add: - Print absolute value of an intege
+ * int add: - Print absolute value of an intege
  * @a: Represent integer
  * @b: Represent integer
  *
