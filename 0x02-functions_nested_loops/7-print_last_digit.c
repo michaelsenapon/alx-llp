@@ -17,5 +17,6 @@ int print_last_digit(int c)
 	else
 	{
 		last_digit = (last_digit * (-1));
+		return (last_digit);
 	}
 }
