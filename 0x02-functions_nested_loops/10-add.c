@@ -2,7 +2,8 @@
 
 /**
  * add: - Print absolute value of an intege
- * @c: Represent integers
+ * @a: Represent integer
+ * @b: Represent integer
  *
  * Return: Always 0
  */
