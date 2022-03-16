@@ -6,17 +6,17 @@
  *
  * Return: Success (0)
  */
-int _abs(int a)
+int _abs(int)
 {	
-	int result;
+	int a;
 	if (a < 0)
 	{
+		int result;
 		result = (a * (-1));
 		return (result);
 	}
 	else
 	{
-		a = result;
-		return (result);
+		return (a);
 	}
 }
