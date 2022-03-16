@@ -6,17 +6,14 @@
  *
  * Return: Success (0)
  */
-int _abs(int a)
+int _abs(int c)
 {	
-	int a;
-	if (a < 0)
+	if (c < 0)
 	{
-		int result;
-		result = (a * (-1));
-		return (result);
+		int abs_val;
+		abs_val = (c * (-1));
+		return (abs_val);
 	}
-	else
-	{
-		return (a);
-	}
+
+	return (c);
 }
