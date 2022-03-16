@@ -6,7 +6,7 @@
  *
  * Return: Success (0)
  */
-int _abs(int c)
+int _abs(int)
 {
 	if (c < 0)
 	{
