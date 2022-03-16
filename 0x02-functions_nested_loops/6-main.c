@@ -1,1 +1,1 @@
-int _abs(int);
+int _abs(inti a);
