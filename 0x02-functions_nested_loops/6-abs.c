@@ -8,15 +8,15 @@
  */
 int _abs(int a)
 {	
-	int a;
+	int result;
 	if (a < 0)
 	{
-		a = (a * (-1));
-		return (0);
+		result = (a * (-1));
+		return (result);
 	}
 	else
 	{
-		a = a;
-		return (0);
+		a = result;
+		return (result);
 	}
 }
