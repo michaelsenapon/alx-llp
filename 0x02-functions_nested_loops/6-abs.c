@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * int _abs - Print absolute value of an integer
- * @int: Represent integers
+ * _abs - Print absolute value of an integer
+ * @c: Represent integers
  *
  * Return: Success (0)
  */
