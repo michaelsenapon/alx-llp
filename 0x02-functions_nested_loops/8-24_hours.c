@@ -1,43 +1,32 @@
-#include "main.h"
-#include <stdio.h>
+#include "holberton.h"
 
 /**
-  * print_to_98 - Prints all natural numbers from n to 98
-  * @n: The number to start printing from
+  * jack_bauer - Prints every minute of the day of Jack Bauer
   *
-  * Return: Always 0.
+  * Return: ...
   */
-void print_to_98(int n)
+void jack_bauer(void)
 {
-	if (n <= 98)
+	int a, b, c, d;
+
+	for (a = 0; a <= 2; a++)
 	{
-		for (; n <= 98; n++)
+		for (b = 0; b <= 9; b++)
 		{
-			if (n == 98)
+			if ((a <= 1 && b <= 9) || (a <= 2 && b <= 3))
 			{
-				printf("%d", n);
-				printf("\n");
-				break;
-			}
-			else
-			{
-				printf("%d, ", n);
-			}
-		}
-	}
-	else
-	{
-		for (; n >= 98; n--)
-		{
-			if (n == 98)
-			{
-				printf("%d", n);
-				printf("\n");
-				break;
-			}
-			else
-			{
-				printf("%d, ", n);
+				for (c = 0; c <= 5; c++)
+				{
+					for (d = 0; d <= 9; d++)
+					{
+						_putchar(a + '0');
+						_putchar(b + '0');
+						_putchar(58);
+						_putchar(c + '0');
+						_putchar(d + '0');
+						_putchar('\n');
+					}
+				}
 			}
 		}
 	}
