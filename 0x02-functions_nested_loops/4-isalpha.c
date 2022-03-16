@@ -4,8 +4,7 @@
  * _isalpha - Checks for alphabets
  * @c: Is a variable representing ascii values for alphabets
  *
- * Return 1 for success
- * Return 0 if otherwise
+ * Return: Success 1 or zero if otherwise
  */
 int _isalpha(int c)
 {
