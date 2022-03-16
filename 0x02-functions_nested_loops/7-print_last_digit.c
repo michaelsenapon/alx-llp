@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_last_digit: - Print absolute value of an intege
+ * print_last_digit - Print absolute value of an intege
  * @c: Represent integers
  *
  * Return: Always 0
