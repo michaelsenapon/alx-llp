@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - Function print 0 - 9 without 2 and 4
- * 
+ *
  * Return: void
  */
 void print_most_numbers(void)
