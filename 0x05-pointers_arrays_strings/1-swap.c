@@ -9,7 +9,7 @@ i#include "main.h"
  */
 void swap_int(int *a, int *b)
 {
-	int *a = p
+	int *a = p;
 	*a = *b;
 	*b = p;
 }
