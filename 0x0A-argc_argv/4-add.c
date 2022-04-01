@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
-  * main - Prints a program that adds positive numbers 
+  * main - Prints a program that adds positive numbers
   * @argc: count arguments entered when program is run
   * @argv: char pointer of array strings
   *
