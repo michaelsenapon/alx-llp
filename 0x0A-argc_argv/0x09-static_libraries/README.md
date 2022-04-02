@@ -1,0 +1,1 @@
+Scripts on Static libraries
