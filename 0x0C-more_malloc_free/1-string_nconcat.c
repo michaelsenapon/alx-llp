@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
-  * string_nconcat - function that concatenates two strings into new memory allocated
+  * string_nconcat - function that concatenates two strings 
+  * into new memory allocated
   * @s1: first string to concatenate into new memory allocated
   * @s2: second string to concatenate into new memory allocated
   * @n: number of bytes of strings from second string to concatenate
