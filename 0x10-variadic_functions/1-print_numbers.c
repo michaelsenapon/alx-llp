@@ -4,9 +4,9 @@
 
 /**
  * print_numbers - variadic function that print numbers
- * @separator: comma and space separator 
+ * @separator: comma and space separator
  * @n: number of integers passed to the function
- * @...: elipsis variable 
+ * @...: elipsis variable
  *
  * Return: Void
  */
@@ -23,7 +23,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		printf("%d", va_arg(arg, int));
 		i++;
-		
+
 		if (i < n)
 			printf("%s", separator);
 	}
