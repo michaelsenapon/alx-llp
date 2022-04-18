@@ -14,11 +14,17 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list arg;
 	unsigned int i;
+	int num;
+
+	if (!separator)
+		return;
 
 	va_start(arg, n);
+
 	while (i < n)
 	{
-		printf("%d", va_arg(arg, int));
+		num = va_arg(arg, int);
+		printf("%d", num);
 		i++;
 
 		if (i < n)
