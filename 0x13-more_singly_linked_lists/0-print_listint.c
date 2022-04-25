@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * print_listint - function that prints all the elements 
+ * print_listint - function that prints all the elements
  * of a linked list
  * @h: pointer to head of linked list
  *
