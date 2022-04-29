@@ -11,7 +11,8 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned int mask, count = 0;
+	unsigned long int mask;
+	unsigned int count = 0;
 
 	mask = (n ^ m);
 
