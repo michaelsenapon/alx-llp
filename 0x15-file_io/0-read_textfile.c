@@ -1,8 +1,5 @@
 #include "main.h"
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
+
 /**
  * read_textfile - ...
  * @filename: ...
@@ -12,15 +9,24 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int fd;
-	char *buffer = (char *)malloc(sizeof(char) * 10000);
+	int fd, num_read;
+	char *buffer = malloc(sizeof(char) * letters);
+
+	if (!buffer)
+		return (0);
 
 	if (filename == NULL)
 		return (0);
 
-	fd = open("filename", O_RDONLY);
-	if (fd < 0)
+	fd = open(filename, O_RDONLY, 0600);
+	if (fd == -1)
 		return (0);
 
-	read("filename", buffer, letters);
+	num_read = read(fd, buffer, letters);
+	write(STDOUT_FILENO, buffer, num_read);
+
+	free(buffer);
+	close(fd);
+	
+	return (num_read);
 }
